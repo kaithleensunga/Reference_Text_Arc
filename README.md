@@ -1,37 +1,33 @@
-# Reference_Text_Arc
+void setup() {
+
+  size(600, 600);
+}
+
+void draw() {
+
+  fill(255, 214, 248);
+  textSize(100);
+  text("i", 150, 200);
+
+  background(193, 239, 255);
+
+  strokeWeight(10);
+  stroke(255, 214, 248);
+  ellipse(mouseX, mouseY, 5, 5);
+
+  line(150, 90, 150, 150);
 
 
-# GOALS For This Assignment
-Learn the setup and draw functions. 
-Create an interactive code work showing knowledge or text() and arc(). 
+  strokeWeight(5);
+  arc(mouseX+250, mouseY+350,50,50, radians(0), radians(300));
 
-
-# REQUIREMENTS 
-Create functional set up and Draw code sequence
-Use text() function to draw 3 words to your screen
-Text will be 3 different colors
-Text will be 3 different sizes textSize()
-Text will be in 3 different positions on screen
-Show evidence of random
-Use arc() to create at least 1 of the letters in your words, for example the “o”s in my “wow”s were finished with an arc() (see attached video)
-Use mouseX, mouseY in some way
-
-
-# NAMING Convention
-
-“REFERENCE_Text_Arc”
-“ _ “ underscore in between words
-
-
-# Post in GitHub, generate URL
-# TURN IN in Classroom
-
-
-# GRADING 
-
-Graded by meeting the requirements and timely completion of the assignment. 
+  fill(255, 202, 202);
+  textSize(100);
+  text("am", 200, 300);
 
 
 
-
-
+  fill(255, 181, 154);
+  textSize(100);
+  text("kaithleen", 110, 440);
+}
